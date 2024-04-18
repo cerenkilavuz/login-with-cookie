@@ -1,0 +1,55 @@
+body {
+    background: linear-gradient(to right, #070a31, #7986CB);
+    font-family: 'Poppind' , sans-serif;
+}
+
+#login_form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: #E8EAF6;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#login_form button{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: #E8EAF6;
+    background-color: #070a31;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+    margin: 8px auto 8px auto;
+}
+.input-control input{
+    border : 2px solid #E8EAF6;
+    border-radius: 4px;
+    display: block;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.remember-control {
+	display: flex;
+}
+
+h2{
+	font-size: 30px;
+	margin: 20px auto 20px auto;
+	
+}
+
+p{
+	font-size: 20px;
+}
